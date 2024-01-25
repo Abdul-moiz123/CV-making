@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Poppins:ital,wght@1,400;1,900&family=Roboto:ital,wght@0,300;1,700&family=Rubik+Bubbles&family=Yuji+Mai&display=swap');
+
+.parents{
+    border: 8px solid black;
+    height: 830px;
+    width: 750px;
+    position: relative;
+}
+
+#div1{
+    background-color: rgb(116, 147, 240);
+    height: 830px;
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+#div1 img {
+    position: relative;
+    top: 23px;
+    left: 90px;
+    border-radius: 400px;
+    border: 2px solid purple;
+    box-shadow: 3px 3px 4px purple,-3px -3px 4px purple;
+    outline: 1px solid black;
+}
+
+#div1 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 42x;
+    text-shadow: 3px 3px 5px white, -3px -3px 5px white;
+}
+
+#div1 h4,h3{
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 42x;
+    text-shadow: 3px 3px 5px white, -3px -3px 5px white;
+}
+
+
+#div1 ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px 5px white, -3px -3px 5px aqua;
+}
+
+#div22{
+    background-color: rgb(107, 211, 124);
+    height: 830px;
+    width: 450px;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+}
+
+#div22 h2{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-family:sans-serif;
+    text-shadow: 3px 3px 5px white, -3px -3px 5px white;
+}
+
+#div22 ul{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    text-shadow: 3px 3px 5px white, -3px -3px 5px aqua;
+}
+
+#div22 ul address{
+    display: inline-block;
+}
+
+#div22 p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    text-shadow: 3px 3px 5px white, -3px -3px 5px aqua;
+    text-align: center;
+}
